@@ -10,7 +10,7 @@ but.addEventListener("click", () => {
         setTimeout(() => {
             inv.innerText = '';
         }, 5000);
-        fetch(`http://meme-api.herokuapp.com/gimme/${number}`)
+        fetch(`https://meme-api.herokuapp.com/gimme/${number}`)
             .then(res => res.json())
             .then(res => {
                 output = '';
