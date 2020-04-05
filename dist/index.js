@@ -23,7 +23,7 @@ but.addEventListener("click", () => {
                         `
                 <div class="each">
                     <a target="_blank" href=${meme.url}>
-                    <img src=${meme.url} alt="not today"></img>
+                    <img src=${meme.url} alt=""></img>
                     </a>
                 </div>
             `;
