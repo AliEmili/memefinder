@@ -1,8 +1,11 @@
+// Declaration
 var divam = document.getElementById('output');
 var search = document.getElementById('tedad');
 var but = document.getElementById('but');
 var inv = document.getElementById('inv');
 
+
+// Eventlisteners
 but.addEventListener("click", () => {
     var number = parseInt(tedad.value);
     if (number >= 1 && number <= 100) {
